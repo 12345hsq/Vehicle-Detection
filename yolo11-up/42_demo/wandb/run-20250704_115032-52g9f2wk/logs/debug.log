@@ -1,0 +1,88 @@
+2025-07-04 11:50:32,316 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Current SDK version is 0.17.6
+2025-07-04 11:50:32,316 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Configure stats pid to 1968
+2025-07-04 11:50:32,316 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Loading settings from C:\Users\huangshengqi\.config\wandb\settings
+2025-07-04 11:50:32,317 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Loading settings from D:\YOLO\yolo11-up\42_demo\wandb\settings
+2025-07-04 11:50:32,317 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-07-04 11:50:32,317 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-07-04 11:50:32,317 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'step1_start_train.py', 'program_abspath': 'D:\\YOLO\\yolo11-up\\42_demo\\step1_start_train.py', 'program': 'D:\\YOLO\\yolo11-up\\42_demo\\step1_start_train.py'}
+2025-07-04 11:50:32,318 INFO    MainThread:1968 [wandb_setup.py:_flush():76] Applying login settings: {}
+2025-07-04 11:50:32,318 INFO    MainThread:1968 [wandb_init.py:_log_setup():521] Logging user logs to D:\YOLO\yolo11-up\42_demo\wandb\run-20250704_115032-52g9f2wk\logs\debug.log
+2025-07-04 11:50:32,318 INFO    MainThread:1968 [wandb_init.py:_log_setup():522] Logging internal logs to D:\YOLO\yolo11-up\42_demo\wandb\run-20250704_115032-52g9f2wk\logs\debug-internal.log
+2025-07-04 11:50:32,318 INFO    MainThread:1968 [wandb_init.py:init():559] calling init triggers
+2025-07-04 11:50:32,319 INFO    MainThread:1968 [wandb_init.py:init():566] wandb.init called with sweep_config: {}
+config: {'task': 'detect', 'mode': 'train', 'model': 'yolo11n.yaml', 'data': 'D:\\YOLO\\yolo11-up\\ultralytics\\cfg\\datasets\\A_my_data.yaml', 'epochs': 100, 'time': None, 'patience': 100, 'batch': 4, 'imgsz': 640, 'save': True, 'save_period': -1, 'cache': True, 'device': [0], 'workers': 0, 'project': './runs', 'name': 'train7', 'exist_ok': False, 'pretrained': 'yolo11n.pt', 'optimizer': 'auto', 'verbose': True, 'seed': 0, 'deterministic': True, 'single_cls': False, 'rect': False, 'cos_lr': False, 'close_mosaic': 10, 'resume': False, 'amp': False, 'fraction': 1.0, 'profile': False, 'freeze': None, 'multi_scale': False, 'overlap_mask': True, 'mask_ratio': 4, 'dropout': 0.0, 'val': True, 'split': 'val', 'save_json': False, 'save_hybrid': False, 'conf': None, 'iou': 0.7, 'max_det': 300, 'half': False, 'dnn': False, 'plots': True, 'source': None, 'vid_stride': 1, 'stream_buffer': False, 'visualize': False, 'augment': False, 'agnostic_nms': False, 'classes': None, 'retina_masks': False, 'embed': None, 'show': False, 'save_frames': False, 'save_txt': False, 'save_conf': False, 'save_crop': False, 'show_labels': True, 'show_conf': True, 'show_boxes': True, 'line_width': None, 'format': 'torchscript', 'keras': False, 'optimize': False, 'int8': False, 'dynamic': False, 'simplify': True, 'opset': None, 'workspace': 4, 'nms': False, 'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'dfl': 1.5, 'pose': 12.0, 'kobj': 1.0, 'label_smoothing': 0.0, 'nbs': 64, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'bgr': 0.0, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0, 'copy_paste_mode': 'flip', 'auto_augment': 'randaugment', 'erasing': 0.4, 'crop_fraction': 1.0, 'cfg': None, 'tracker': 'botsort.yaml', 'save_dir': 'runs\\train7'}
+2025-07-04 11:50:32,319 INFO    MainThread:1968 [wandb_init.py:init():609] starting backend
+2025-07-04 11:50:32,319 INFO    MainThread:1968 [wandb_init.py:init():613] setting up manager
+2025-07-04 11:50:32,322 INFO    MainThread:1968 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-07-04 11:50:32,324 INFO    MainThread:1968 [wandb_init.py:init():621] backend started and connected
+2025-07-04 11:50:32,329 INFO    MainThread:1968 [wandb_init.py:init():716] updated telemetry
+2025-07-04 11:50:32,331 INFO    MainThread:1968 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2025-07-04 11:51:32,374 INFO    Thread-6  :1968 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x00000207753ACC70>, 'Connection to api.wandb.ai timed out. (connect timeout=20)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000207753ACC70>, 'Connection to api.wandb.ai timed out. (connect timeout=20)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\huangshengqi\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\huangshengqi\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\internal\internal_api.py", line 345, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\huangshengqi\AppData\Roaming\Python\Python38\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\huangshengqi\AppData\Roaming\Python\Python38\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\huangshengqi\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\huangshengqi\.conda\envs\dsjtl\lib\site-packages\requests\adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000207753ACC70>, 'Connection to api.wandb.ai timed out. (connect timeout=20)'))
+2025-07-04 11:52:03,170 ERROR   MainThread:1968 [wandb_init.py:init():775] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2025-07-04 11:52:03,170 ERROR   MainThread:1968 [wandb_init.py:init():1187] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\huangshengqi\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\wandb_init.py", line 1177, in init
+    return wi.init()
+  File "C:\Users\huangshengqi\AppData\Roaming\Python\Python38\site-packages\wandb\sdk\wandb_init.py", line 781, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2025-07-04 11:52:06,226 WARNING MsgRouterThr:1968 [router.py:message_loop():77] message_loop has been closed

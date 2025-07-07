@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2025-07-07T01:47:33.819220",
+    "startedAt": "2025-07-07T01:47:33.755118",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\YOLO\\yolo11-up\\42_demo\\step1_start_train.py",
+    "codePathLocal": "step1_start_train.py",
+    "codePath": "step1_start_train.py",
+    "host": "hsq",
+    "username": "\u9ec4\u5723\u6dc7",
+    "executable": "C:\\Users\\huangshengqi\\.conda\\envs\\dsjtl\\python.exe",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1466.0,
+        "min": 0.0,
+        "max": 2200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1466.0,
+            "min": 0.0,
+            "max": 2200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 301.43163681030273,
+            "used": 78.41638565063477
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 15.700675964355469
+    }
+}
