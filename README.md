@@ -49,3 +49,17 @@
  4.设计完成可视化交互界面，使非技术用户也能便捷操作系统并查看检测结果。
 
 
+ 实施流程
+
+ 
+ 在yolo11-up\ultralytics\cfg\datasets\A_my_data中更换为本地数据集路径
+
+ 在step1_start_train.py中指定模型路径和数据集配置文件，开始训练
+
+ step3_strat_window_track.py为可视化界面
+
+ 
+
+ 
+
+
